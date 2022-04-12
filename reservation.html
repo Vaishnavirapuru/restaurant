@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<meta name="robots" content="noindex">
+<html>
+<head>
+<title>RESERVE TABLE</title>
+</head>
+<style>
+*{
+  margin:0;
+  padding:0;
+ }
+body{
+  font-family:sans-serif;
+  }
+.table
+  {
+    height:cover;
+    width:cover;
+    background:#ddff99;
+    padding:40px 40px;
+    box-sizing:border-box;
+    position:fixes;
+    left:50%;
+   <!-- top:50%-->
+    transform:translate(-50%,-50%);
+  }
+h1{
+  text-align:center;
+  color:#fff;
+  font-weight:normal;
+  margin-bottom:20px;
+  }
+input
+{
+width:100;
+border:1px;
+border-radius:3px;
+padding:16px 20px;
+box-sizing:border-box;
+margin-bottom:28px
+color:yellow;
+}
+body{
+background:none;
+  
+}
+</style>
+<body style="background:url('reservation photo.jpg');">
+<center>
+
+<div class='table'>
+<form style="color:yellow;">
+
+  <h1 style="font-family:Times;"><b>RESERVE TABLE</b></h1>
+<input type="text" placeholder="name" required name="NAME">
+<input type="number" placeholder="count of guests"required name="guests">
+
+<input type="datetime-local" placeholder="date and time" required name="date and time">
+
+<input type="mail" placeholder='email'>
+<input type="tel" id="phone"   placeholder="phone number" pattern="[o-9]{3}-[0-9]{4}-[0-9]{3}">
+<input type="text" placeholder="special requirements" required name="message">
+ <br><br><br><br><button type="submit"><b>submit</b></button>
+</form>
+</center>
+</body>
+
+
+ 
+</html>
